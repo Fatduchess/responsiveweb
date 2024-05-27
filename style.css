@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo{
+    background-color: #e5e5e5;
+    padding: 15px;
+    margin: 10px;
+    font-family: verdana;
+}
+.container{
+    display: flex;
+}
+.links{
+    width: 20%;
+}
+.links a{
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    margin-top: 7px;
+    color: black;
+}
+.paseo{
+    width: 65%;
+    font-family: verdana;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.texto{
+    width: 15%;
+    background-color: rgb(178,205,206);
+    padding: 15px;
+}
+@media screen and (max-width:600px) {
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .texto{
+        width: 100%;
+    }
+}
